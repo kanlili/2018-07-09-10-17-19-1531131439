@@ -1,13 +1,13 @@
-package practice01;
+package practice02;
 
 public class Person {
-   public String name;
-   public int age;
-   public Person(String name, int age) {
+    public String name;
+    public int age;
+    public Person(String name, int age) {
         this.name = name;
         this.age = age;
     }
-   public String getName() {
+    public String getName() {
         return name;
     }
 
@@ -26,3 +26,4 @@ public class Person {
         System.out.println("My name is"+ getName()+". I am "+getAge()+"years old.");
     }
 }
+
