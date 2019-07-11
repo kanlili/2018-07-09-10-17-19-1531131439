@@ -1,17 +1,22 @@
-package practice06;
+package practice07;
 
 public class Student extends Person{
-    public String klass;
-    public Student(String name, int age, String klass) {
+    public Klass klass;
+
+    public Student(String name, int age) {
+        super(name, age);
+    }
+
+    public Student(String name, int age, Klass klass) {
         super(name, age);
         this.klass = klass;
     }
 
-    public String getKlass() {
+    public Klass getKlass() {
         return klass;
     }
 
-    public void setKlass(String klass) {
+    public void setKlass(Klass klass) {
         this.klass = klass;
     }
 

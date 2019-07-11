@@ -1,4 +1,4 @@
-package practice06;
+package practice07;
 
 public class Person {
     public  String name;
@@ -32,3 +32,4 @@ public class Person {
 
 
 }
+

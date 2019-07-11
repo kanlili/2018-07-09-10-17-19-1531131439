@@ -1,4 +1,5 @@
-package practice06;
+package practice07;
+
 
 public class Teacher extends  Person {
     public  String klass;
@@ -27,5 +28,13 @@ public class Teacher extends  Person {
             System.out.println("I am a Teacher. I teach" + getClass() + ".");
         }
 
+    }
+    public  void  introduceWith(Student student){
+        super.introduce();
+        if(student.getKlass().getDisplayName().equals(getKlass())){
+            System.out.println("I am a Teacher. I teach"+student.getName()+".");
+        }else{
+            System.out.println("I am a Teacher. I don't teach"+student.getName()+".");
+        }
     }
 }
