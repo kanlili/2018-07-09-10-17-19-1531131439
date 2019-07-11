@@ -1,4 +1,4 @@
-package practice03;
+package practice04;
 
 public class Student extends Person{
     public String klass;
@@ -16,6 +16,7 @@ public class Student extends Person{
     }
 
     public  void  introduce(){
-        System.out.println("My name is"+ getName()+". I am "+getClass()+".");
+        super.introduce();
+        System.out.println("I am a Student. I am at"+getClass()+".");
     }
 }

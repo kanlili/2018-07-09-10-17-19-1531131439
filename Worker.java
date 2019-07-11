@@ -1,4 +1,4 @@
-package practice03;
+package practice04;
 
 public class Worker extends Person {
 
@@ -6,5 +6,7 @@ public class Worker extends Person {
         super(name, age);
     }
     public  void introduce(){
-        System.out.println("I am a Worker. I have a job.");
+        super.introduce();
+        System.out.println(" I am a Worker. I have a job.");
     }
+}
