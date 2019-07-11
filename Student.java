@@ -1,4 +1,4 @@
-package practice04;
+package practice05;
 
 public class Student extends Person{
     public String klass;

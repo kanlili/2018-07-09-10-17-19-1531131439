@@ -1,4 +1,4 @@
-package practice04;
+package practice05;
 
 public class Person {
     public String name;
@@ -26,4 +26,3 @@ public class Person {
         System.out.println("My name is"+ getName()+". I am "+getAge()+"years old.");
     }
 }
-
